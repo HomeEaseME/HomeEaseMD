@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeEase Medical Equipment | Flagstaff & Northern AZ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0056b3; /* Trustworthy Blue */
+            --secondary: #28a745; /* Healthy Green */
+            --text-dark: #333;
+            --text-light: #f9f9f9;
+            --bg-soft: #f4f7f6;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+            background-color: var(--bg-soft);
+        }
+
+        /* Hero Container */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(rgba(0, 86, 179, 0.05), rgba(0, 86, 179, 0.05)),
+                        url('https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&q=80&w=2000'); /* Professional healthcare background */
+            background-size: cover;
+            background-position: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            max-width: 600px;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .logo-area h1 {
+            color: var(--primary);
+            margin: 0;
+            font-size: 2.2rem;
+            letter-spacing: -1px;
+        }
+
+        .logo-area span {
+            color: var(--secondary);
+        }
+
+        .location-tag {
+            background: #e1ecf7;
+            color: var(--primary);
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin: 20px 0;
+        }
+
+        /* Elevator Pitch */
+        .pitch {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white;
+            padding: 15px 35px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s, background 0.2s;
+            box-shadow: 0 4px 6px rgba(0, 86, 179, 0.2);
+        }
+
+        .btn:hover {
+            background-color: #004494;
+            transform: translateY(-2px);
+        }
+
+        /* Contact Info */
+        .contact-info {
+            margin-top: 40px;
+            padding-top: 25px;
+            border-top: 1px solid #eee;
+            font-size: 0.95rem;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+            color: #777;
+        }
+
+        .contact-info strong {
+            color: var(--text-dark);
+        }
+
+        @media (max-width: 480px) {
+            .card { padding: 30px 20px; }
+            .logo-area h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="card">
+            <header class="logo-area">
+                <h1>Home<span>Ease</span></h1>
+            </header>
+
+            <div class="location-tag">Serving Flagstaff & Surrounding Areas</div>
+
+            <div class="pitch">
+                <p>
+                    Independence starts at home. Whether you're recovering from surgery or managing a chronic condition, 
+                    <strong>HomeEase</strong> provides high-quality medical equipment and expert support to help you live 
+                    safely, comfortably, and on your own terms.
+                </p>
+            </div>
+
+            <a href="mailto:support@homeeasedme.com?subject=Information Request" class="btn">Request More Info</a>
+
+            <div class="contact-info">
+                <p><strong>Call Us:</strong> (928)525-6434</p>
+                <p><strong>Email:</strong> support@homeeasedme.com</p>
+                <p>Flagstaff, Arizona</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
