@@ -12,7 +12,7 @@ export default async function handler(request) {
 
     const data = await resend.emails.send({
       from: 'HomeEase Web <onboarding@resend.dev>', // You can update this once domain is verified in Resend
-      to: ['support@homeeasedme.com'], 
+      to: ['crystal.miller025@gmail.com'], 
       subject: `New Equipment Request: ${name}`,
       html: `<p><strong>Name:</strong> ${name}</p>
              <p><strong>Email:</strong> ${email}</p>
